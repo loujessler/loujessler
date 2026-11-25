@@ -16,15 +16,15 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/main/assets/stats-mobile.png?v=b0ab5672353b">
-    <img src="https://raw.githubusercontent.com/loujessler/loujessler/main/assets/stats.png?v=c96070588094" width="100%" alt="Статистика GitHub на 25 ноя 2026. За 365 дней — 221 вклад. Текущая серия — 4 дня, рекорд — 14 дней. С 2017 года — 1 746 вкладов. Публичные репозитории — 17, звёзды — 8, скачивания файлов публичных релизов — 135.">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/f23ed3aaccd74bfaa0a757d9ab74b6f83df37ff2/assets/stats-mobile.png">
+    <img src="https://raw.githubusercontent.com/loujessler/loujessler/f23ed3aaccd74bfaa0a757d9ab74b6f83df37ff2/assets/stats.png" width="100%" alt="Статистика GitHub на 25 ноя 2026. За 365 дней — 221 вклад. Текущая серия — 4 дня, рекорд — 14 дней. С 2017 года — 1 746 вкладов. Публичные репозитории — 17, звёзды — 8, скачивания файлов публичных релизов — 135.">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/main/assets/activity-mobile.png?v=4905dbc268fb">
-    <img src="https://raw.githubusercontent.com/loujessler/loujessler/main/assets/activity.png?v=a6bd3e563c03" width="100%" alt="Календарь с 1 июн 2026 по 25 ноя 2026. Всего 89 вкладов. В ячейках указано число вкладов за день.">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/f23ed3aaccd74bfaa0a757d9ab74b6f83df37ff2/assets/activity-mobile.png">
+    <img src="https://raw.githubusercontent.com/loujessler/loujessler/f23ed3aaccd74bfaa0a757d9ab74b6f83df37ff2/assets/activity.png" width="100%" alt="Календарь с 1 июн 2026 по 25 ноя 2026. Всего 89 вкладов. В ячейках указано число вкладов за день.">
   </picture>
 </p>
 

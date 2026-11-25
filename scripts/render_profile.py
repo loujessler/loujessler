@@ -1,8 +1,7 @@
 from datetime import date, timedelta
-from hashlib import sha256
 from html import escape
 
-from drawing import ASSETS, BLUE, GREEN, INK, INNER, MUTED, OCHRE, PAPER, PURPLE, RED, ROOT, TEAL
+from drawing import BLUE, GREEN, INK, INNER, MUTED, OCHRE, PAPER, PURPLE, RED, ROOT, TEAL
 from drawing import icon, panel, sticker, width
 from github_stats import DAY, LOGIN, fetch_profile
 
@@ -166,16 +165,10 @@ def activity(profile, first, six_total, mobile):
     canvas.save("activity-mobile.png" if mobile else "activity.png")
 
 
-def image_url(filename):
-    version = sha256((ASSETS / filename).read_bytes()).hexdigest()[:12]
-    return f"https://raw.githubusercontent.com/{LOGIN}/{LOGIN}/main/assets/{filename}?v={version}"
-
-
 def picture(name, alt):
-    small = image_url(f"{name}-mobile.png")
-    large = image_url(f"{name}.png")
-    return (f'<p align="center">\n  <picture>\n    <source media="(max-width: 600px)" srcset="{small}">\n'
-            f'    <img src="{large}" width="100%" alt="{escape(alt, quote=True)}">\n  </picture>\n</p>')
+    base = f"https://raw.githubusercontent.com/{LOGIN}/{LOGIN}/main/assets/{name}"
+    return (f'<p align="center">\n  <picture>\n    <source media="(max-width: 600px)" srcset="{base}-mobile.png">\n'
+            f'    <img src="{base}.png" width="100%" alt="{escape(alt, quote=True)}">\n  </picture>\n</p>')
 
 
 def render(profile):
