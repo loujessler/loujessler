@@ -167,8 +167,8 @@ def activity(profile, first, six_total, mobile):
 
 def picture(name, alt):
     small = f"https://raw.githubusercontent.com/{LOGIN}/{LOGIN}/main/assets/{name}-mobile.png"
-    return (f'<picture>\n  <source media="(max-width: 600px)" srcset="{small}">\n'
-            f'  <img src="./assets/{name}.png" width="100%" alt="{escape(alt, quote=True)}">\n</picture>')
+    return (f'<p align="center">\n  <picture>\n    <source media="(max-width: 600px)" srcset="{small}">\n'
+            f'    <img src="./assets/{name}.png" width="100%" alt="{escape(alt, quote=True)}">\n  </picture>\n</p>')
 
 
 def render(profile):
