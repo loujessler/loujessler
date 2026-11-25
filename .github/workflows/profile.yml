@@ -1,0 +1,39 @@
+name: Обновить статистику профиля
+
+on:
+  schedule:
+    - cron: '37 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'Pillow==12.2.0'
+      - name: Нарисовать карточки по публичным данным GitHub
+        run: python -B scripts/render_profile.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Опубликовать обновление
+        run: |
+          git add -- README.md assets/stats*.png assets/activity*.png
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Обновить статистику профиля'
+          git pull --rebase origin main
+          git push origin HEAD:main
