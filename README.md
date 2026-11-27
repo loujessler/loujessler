@@ -16,15 +16,15 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/108df2842864b683374b1a2cc35c299db61eb9f0/assets/stats-mobile.png">
-    <img src="https://raw.githubusercontent.com/loujessler/loujessler/108df2842864b683374b1a2cc35c299db61eb9f0/assets/stats.png" width="100%" alt="Статистика GitHub на 26 ноя 2026. За 365 дней — 257 вкладов. Текущая серия — 4 дня, рекорд — 14 дней. С 2017 года — 1 782 вклада. Публичные репозитории — 17, звёзды — 8, скачивания файлов публичных релизов — 136.">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/stats-mobile.png">
+    <img src="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/stats.png" width="100%" alt="Статистика GitHub на 27 ноя 2026. За 365 дней — 279 вкладов. Текущая серия — 5 дней, рекорд — 14 дней. С 2017 года — 1 804 вклада. Публичные репозитории — 17, звёзды — 8, скачивания файлов публичных релизов — 137.">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/108df2842864b683374b1a2cc35c299db61eb9f0/assets/activity-mobile.png">
-    <img src="https://raw.githubusercontent.com/loujessler/loujessler/108df2842864b683374b1a2cc35c299db61eb9f0/assets/activity.png" width="100%" alt="Календарь с 1 июн 2026 по 26 ноя 2026. Всего 125 вкладов. В ячейках указано число вкладов за день.">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/activity-mobile.png">
+    <img src="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/activity.png" width="100%" alt="Календарь с 1 июн 2026 по 27 ноя 2026. Всего 147 вкладов. В ячейках указано число вкладов за день.">
   </picture>
 </p>
 
