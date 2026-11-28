@@ -16,15 +16,15 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/stats-mobile.png">
-    <img src="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/stats.png" width="100%" alt="Статистика GitHub на 27 ноя 2026. За 365 дней — 279 вкладов. Текущая серия — 5 дней, рекорд — 14 дней. С 2017 года — 1 804 вклада. Публичные репозитории — 17, звёзды — 8, скачивания файлов публичных релизов — 137.">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/65deecc4e6c2e5daaf13569dc657c7c4377d1291/assets/stats-mobile.png">
+    <img src="https://raw.githubusercontent.com/loujessler/loujessler/65deecc4e6c2e5daaf13569dc657c7c4377d1291/assets/stats.png" width="100%" alt="Статистика GitHub на 28 ноя 2026. За 365 дней — 345 вкладов. Текущая серия — 7 дней, рекорд — 14 дней. С 2017 года — 1 870 вкладов. Публичные репозитории — 17, звёзды — 8, скачивания файлов публичных релизов — 140.">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/activity-mobile.png">
-    <img src="https://raw.githubusercontent.com/loujessler/loujessler/b9b1e30bac1316a6d3659cac38ae241efa1706ac/assets/activity.png" width="100%" alt="Календарь с 1 июн 2026 по 27 ноя 2026. Всего 147 вкладов. В ячейках указано число вкладов за день.">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loujessler/loujessler/65deecc4e6c2e5daaf13569dc657c7c4377d1291/assets/activity-mobile.png">
+    <img src="https://raw.githubusercontent.com/loujessler/loujessler/65deecc4e6c2e5daaf13569dc657c7c4377d1291/assets/activity.png" width="100%" alt="Календарь с 1 июн 2026 по 28 ноя 2026. Всего 213 вкладов. В ячейках указано число вкладов за день.">
   </picture>
 </p>
 
